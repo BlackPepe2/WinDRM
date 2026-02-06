@@ -1,0 +1,333 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: windrm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x807 /fo"Release/windrm.res" /d "NDEBUG" "C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\windrm.rc"" 
+Creating temporary file "C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP19.tmp" with contents
+[
+/nologo /MT /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/windrm.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\ChanEstTime.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\ChannelEstimation.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\IdealChannelEstimation.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\TimeLinear.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\TimeWiener.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\datadecoding\DABMOT.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\datadecoding\DataDecoder.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\datadecoding\MOTSlideShow.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\datadecoding\picpool.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\FAC\FAC.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\interleaver\BlockInterleaver.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\interleaver\SymbolInterleaver.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib\MatlibSigProToolbox.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib\MatlibStdToolbox.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\BitInterleaver.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\ChannelCode.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\ConvEncoder.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\EnergyDispersal.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\Metric.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\MLC.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\QAMMapping.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\TrellisUpdateMMX.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\TrellisUpdateSSE2.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\ViterbiDecoder.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\ofdmcellmapping\CellMappingTable.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\ofdmcellmapping\OFDMCellMapping.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\resample\Resample.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sourcedecoders\AudioSourceDecoder.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\FreqSyncAcq.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\SyncUsingPil.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\TimeSync.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\TimeSyncTrack.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\audiofir.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\bsr.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\CRC.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\Data.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\DrmReceiver.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\DRMSignalIO.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\DrmTransmitter.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\fir.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\InputResample.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\list.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\MSCMultiplexer.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\OFDM.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\Parameter.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\settings.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\TextMessage.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\sound\Sound.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\Dialog.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\getfilenam.cpp"
+"C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\main.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP19.tmp" 
+Creating temporary file "C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP1A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib shell32.lib winmm.lib libspeex.lib libfftw.lib callsign.lib mixer.lib ptt.lib poolid.lib graphwin.lib lpc_10.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/windrm.pdb" /machine:I386 /nodefaultlib:"libc.lib" /out:"Release/windrm.exe" /libpath:"common/libs/" 
+".\Release\ChanEstTime.obj"
+".\Release\ChannelEstimation.obj"
+".\Release\IdealChannelEstimation.obj"
+".\Release\TimeLinear.obj"
+".\Release\TimeWiener.obj"
+".\Release\DABMOT.obj"
+".\Release\DataDecoder.obj"
+".\Release\MOTSlideShow.obj"
+".\Release\picpool.obj"
+".\Release\FAC.obj"
+".\Release\BlockInterleaver.obj"
+".\Release\SymbolInterleaver.obj"
+".\Release\MatlibSigProToolbox.obj"
+".\Release\MatlibStdToolbox.obj"
+".\Release\BitInterleaver.obj"
+".\Release\ChannelCode.obj"
+".\Release\ConvEncoder.obj"
+".\Release\EnergyDispersal.obj"
+".\Release\Metric.obj"
+".\Release\MLC.obj"
+".\Release\QAMMapping.obj"
+".\Release\TrellisUpdateMMX.obj"
+".\Release\TrellisUpdateSSE2.obj"
+".\Release\ViterbiDecoder.obj"
+".\Release\CellMappingTable.obj"
+".\Release\OFDMCellMapping.obj"
+".\Release\Resample.obj"
+".\Release\AudioSourceDecoder.obj"
+".\Release\FreqSyncAcq.obj"
+".\Release\SyncUsingPil.obj"
+".\Release\TimeSync.obj"
+".\Release\TimeSyncTrack.obj"
+".\Release\audiofir.obj"
+".\Release\bsr.obj"
+".\Release\CRC.obj"
+".\Release\Data.obj"
+".\Release\DrmReceiver.obj"
+".\Release\DRMSignalIO.obj"
+".\Release\DrmTransmitter.obj"
+".\Release\fir.obj"
+".\Release\InputResample.obj"
+".\Release\list.obj"
+".\Release\MSCMultiplexer.obj"
+".\Release\OFDM.obj"
+".\Release\Parameter.obj"
+".\Release\settings.obj"
+".\Release\TextMessage.obj"
+".\Release\Sound.obj"
+".\Release\Dialog.obj"
+".\Release\getfilenam.obj"
+".\Release\main.obj"
+".\Release\windrm.res"
+]
+Creating command line "link.exe @C:\DOKUME~1\ADMINI~1\LOKALE~1\Temp\RSP1A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+ChanEstTime.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+ChannelEstimation.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+IdealChannelEstimation.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TimeLinear.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TimeWiener.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\chanest\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+DABMOT.cpp
+DataDecoder.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\datadecoding\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\datadecoding\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\datadecoding\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\datadecoding\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+MOTSlideShow.cpp
+picpool.cpp
+FAC.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\FAC\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\FAC\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\FAC\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\FAC\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+BlockInterleaver.cpp
+SymbolInterleaver.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\interleaver\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\interleaver\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\interleaver\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\interleaver\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+MatlibSigProToolbox.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib\Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib\Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib\Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib\Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+MatlibStdToolbox.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib\Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib\Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib\Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib\Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+BitInterleaver.cpp
+ChannelCode.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+ConvEncoder.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+EnergyDispersal.cpp
+Metric.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+MLC.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+QAMMapping.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TrellisUpdateMMX.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TrellisUpdateSSE2.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\mlc\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+ViterbiDecoder.cpp
+CellMappingTable.cpp
+OFDMCellMapping.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\ofdmcellmapping\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\ofdmcellmapping\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\ofdmcellmapping\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\ofdmcellmapping\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+Resample.cpp
+AudioSourceDecoder.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sourcedecoders\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sourcedecoders\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sourcedecoders\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sourcedecoders\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+FreqSyncAcq.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+SyncUsingPil.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TimeSync.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TimeSyncTrack.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\sync\../matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+audiofir.cpp
+bsr.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\../common/matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\../common/matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\../common/matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\../common/matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+CRC.cpp
+Data.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+DrmReceiver.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+DRMSignalIO.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+DrmTransmitter.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+fir.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+InputResample.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+list.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\../common/matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\../common/matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\../common/matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\../common/matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+MSCMultiplexer.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+OFDM.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+Parameter.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+settings.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common\matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+TextMessage.cpp
+Sound.cpp
+Dialog.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common/matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common/matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common/matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common/matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+getfilenam.cpp
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common/matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<class std::complex<double> >' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common/matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<class std::complex<double> >' being compiled
+C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common/matlib/Matlib.h(218) : warning C4521: 'CMatlibVector<double>' : multiple copy constructors specified
+        C:\Dokumente und Einstellungen\Administrator\Eigene Dateien\myprojects\srcdist\windrm\common/matlib/Matlib.h(230) : see reference to class template instantiation 'CMatlibVector<double>' being compiled
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+windrm.exe - 0 error(s), 74 warning(s)
+</pre>
+</body>
+</html>

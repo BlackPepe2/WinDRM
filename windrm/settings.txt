@@ -1,0 +1,15 @@
+0 TX_Port
+N9CALL Call
+0 TX_Sound_OUT_Device
+0 TX_Sound_IN_Device
+0 RX_Sound_OUT_Device
+0 RX_Sound_IN_Device
+0 Send_Text_Message
+0 Display_Type
+0 RX_Audfilt
+0 FAC_mute
+16 QAM
+1 MODE
+0 BW
+0 Interleave
+0 FastReset
