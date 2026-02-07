@@ -2,7 +2,7 @@ This is source of WinDRM program for DigitalVoice and file transfer over SSB rad
 
 Place "common" inside "windrm" folder.
 
-Unluckily only the version with speex and lpc10 codec. The mel.dll version is way better.
+Unluckily only the version with speex and lpc10 codec. The melp.dll version is way better.
 
 Example:
 
